@@ -1522,3 +1522,43 @@ footer {
         font-size: 1rem;
     }
 }
+/* GitHub Pages Fix for Colors */
+footer {
+  background-color: #1e1e2c !important; 
+  color: #f8f9fa !important;
+}
+
+.footer-links h3,
+.footer-services h3,
+.footer-newsletter h3,
+.footer-about h3 {
+  color: #f8f9fa !important;
+}
+
+.footer-links a,
+.footer-services a,
+.footer-about p,
+.footer-newsletter p,
+.footer-bottom p {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.btn, 
+.btn-quote,
+.service-icon,
+.stat-item span,
+.about-text h3::after,
+.section-title h2::after {
+  background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%) !important;
+  color: #f8f9fa !important;
+}
+
+a, 
+.service-card ul li i,
+.service-icon {
+  color: #4361ee !important;
+}
+
+a:hover {
+  color: #3a0ca3 !important;
+}
