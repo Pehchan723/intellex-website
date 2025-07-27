@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://intellex.site/sitemap.xml
+
+# Block admin areas
+Disallow: /admin/
+Disallow: /private/
